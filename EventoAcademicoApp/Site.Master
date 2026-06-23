@@ -1,0 +1,36 @@
+﻿    <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="EventoAcademicoApp.SiteMaster" %>
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head runat="server">
+        <meta charset="utf-8" />
+        <title>Congreso Estudiantil de Innovación TI 2026</title>
+        <link rel="stylesheet" type="text/css" href="Styles/Site.css" />
+        <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <div class="page-wrapper">
+
+                <header class="site-header">
+                    <h1>Congreso Estudiantil de Innovación TI 2026</h1>
+                    <nav class="site-nav">
+                        <a id="lnkFormulario" runat="server" href="Default.aspx">Formulario de registro</a>
+                        <a id="lnkResumen" runat="server" href="Resumen.aspx">Resumen de participantes</a>
+                    </nav>
+                </header>
+
+                <main class="content-area">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </main>
+
+                <footer class="site-footer">
+                    <p>UNED &mdash; Programación avanzada en web (03101) &mdash; Tarea #1</p>
+                </footer>
+
+            </div>
+        </form>
+    </body>
+    </html>

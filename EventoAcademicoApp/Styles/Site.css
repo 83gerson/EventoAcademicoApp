@@ -1,0 +1,152 @@
+﻿body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    color: #222;
+}
+
+.page-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.site-header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+    border-radius: 6px 6px 0 0;
+}
+
+    .site-header h1 {
+        margin: 0 0 20px 0;
+        font-size: 22px;
+    }
+
+.site-nav a {
+    color: #cfe3ff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .site-nav a:hover {
+        text-decoration: underline;
+    }
+
+.content-area {
+    background-color: #fff;
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+
+.site-footer {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    padding: 10px;
+}
+
+.form-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+    .form-group.full-width {
+        max-width: 100%;
+    }
+
+.input-text, .input-text-small, .input-select {
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+.input-text-small {
+    max-width: 80px;
+}
+
+.error-text {
+    color: #c0392b;
+    font-size: 12px;
+}
+
+.info-text {
+    color: #2d6a4f;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.validation-summary {
+    color: #c0392b;
+    background-color: #fdecea;
+    border: 1px solid #c0392b;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #003366;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.confirmation-box {
+    display: block;
+    background-color: #e9f7ef;
+    border: 1px solid #2d6a4f;
+    color: #1e4d36;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.data-grid {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .data-grid th, .data-grid td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .data-grid th {
+        background-color: #003366;
+        color: #fff;
+    }
+
+    .site-nav a.active-nav {
+        background-color: #ffffff;
+        color: #003366;
+        padding: 6px 10px;
+        border-radius: 4px;
+        text-decoration: none;
+    }   
+
+    .site-nav a.active-nav:hover {
+        background-color: #e6f0ff;
+    }   
